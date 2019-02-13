@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+body{
+        background-image: url("../images/darkmatter.png");
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        line-height: 150%;
+        color:lightgray;
+    }
+.container {
+        background-image: url(../images/darem.png);
+        border-color: darkred;
+        border-width: 2px;
+        border-style: solid;
+        width: 960px;
+        margin: 10px auto;
+        padding: 15px;
+        margin-bottom: 20px;
+        position: center;
+        text-align: left;
+        overflow: auto;
+    }
+#name {
+        background-color: black;
+        padding: 23px;
+        margin: -2.5px;
+        font-family: Arial;
+        font-weight: bold;
+        float: left;
+    }
+.nav{
+        background-color: darkred;
+        padding: 10px;
+    }
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 10px;
+        background-color: darkred;
+    }
+ol {
+        padding: 10px;
+    }
+li {
+        color: white;
+        list-style-type: none;
+        margin: 5px;
+        float: right;
+    }
+a {
+        color: darkgray;
+        text-decoration: none;
+        font-weight: bold;
+        font-style: arial;
+    }
+#space1 {
+        margin-right: 10px;
+    }
+#space2 {
+        margin-right: 10px;
+    }
+#bioimage {
+        width: 400px;
+        height: 380px;
+        float: left;
+        margin: 10px;
+        padding: 5px;
+        border-color: darkred;
+        border-style: solid;
+        border-width: 5px;
+    }
+#ptitle {
+        background-color: black;
+        padding: 23px;
+        margin: 10px;
+        font-style: Arial;
+        font-size: 40px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    border-color: darkred;
+    }
+#form {
+        color: lightgray;
+}
+#messagebox {
+    width: 100%;
+    height: 320px
+}
+#textinput {
+    width: 100%;
+}
+#button {
+    color: lightgray;
+    background-color: darkred;   
+}
+.imgcontain {
+    display: inline-block;
+    width: 960px;
+    height: 100%;
+    margin: 10px;
+}
+#projectimg {
+    width: 200px;
+    height: 150px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.ptext {
+    color: lightgray;
+    font-weight: bold;
+    font-style: arial;
+    font-size: 28px;
+    margin: 3px;
+}
